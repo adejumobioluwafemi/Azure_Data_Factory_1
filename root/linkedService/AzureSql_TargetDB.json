@@ -1,0 +1,12 @@
+{
+	"name": "AzureSql_TargetDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=oluwafemi-demo.database.windows.net;initial catalog=TargetDB;user id=sa-oluwafemi",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE3N0Y1QUM2LTZFQ0YtNDE0My1CQTY0LUU3OTIwNUQzODc5Ql8yNzI0Yzk4YS0wMjU0LTQyNWEtOGQzNS1jMzQ5YWU5NWE3ZTAiDQp9"
+		}
+	}
+}
