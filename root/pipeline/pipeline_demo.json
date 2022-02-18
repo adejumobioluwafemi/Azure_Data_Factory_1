@@ -18,6 +18,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
+						"sqlReaderQuery": "SELECT TOP(10) [productcode]\n      ,[rundate]\n      ,[actualvol]\n  FROM [py_tutorialdb].[dbo].[tbl_income_volume$]",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
