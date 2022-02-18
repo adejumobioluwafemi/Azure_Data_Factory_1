@@ -1,0 +1,32 @@
+{
+	"name": "tbl_income_volume",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "onPrem_ADEJUMOBIOLUWAF",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "productcode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "rundate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "actualvol",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_income_volume$"
+		}
+	}
+}
