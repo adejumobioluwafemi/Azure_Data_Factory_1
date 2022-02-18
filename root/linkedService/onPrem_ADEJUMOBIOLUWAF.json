@@ -1,0 +1,17 @@
+{
+	"name": "onPrem_ADEJUMOBIOLUWAF",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "on premise database",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=ADEJUMOBIOLUWAF;initial catalog=py_tutorialdb;user id=hduser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxYjE0YTM4Zi0wZjIxLTQyMjktYjlkMS0wNjUxODU0MzUzNDciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ADEJUMOBIOLUWAF-integrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
